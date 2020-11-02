@@ -1,0 +1,96 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* @import url(‘https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap’); */
+
+body {
+  /* background: black; */
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.widgetWrap {
+  background: #2a2a2a;
+  height: 182px;
+  margin-bottom: 19px;
+  width: 300px;
+  margin: 20px;
+}
+
+.widgetTitle {
+  border-bottom: 1px solid #665151;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px;
+  color: #b6b6e3
+}
+
+.widgetValue .value {
+  font-size: 57px;
+  font-weight: 700;
+  text-align: left;
+  padding: 0px 7px;
+  line-height: 100%;
+  color: yellow
+}
+
+/* .description {
+  text-align: left;
+  font-size: 12px;
+  padding-left: 13px;
+} */
+
+.widgetValue {
+  padding: 10px 0;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+/* height: 143px; */
+height: 133px;
+/* padding-left: 7px; */
+}
+
+
+
+/* change color of text in doughnut chart */
+text {
+  fill: white;
+}
+
+
+.TopHeader{
+/* background: #22aa22; */
+background: yellow;
+color: black;
+margin-bottom: 19px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px 15px;
+font-size: 30px;
+/* text-align: left; */
+font-weight: bold;
+}
+
+.row{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+/* margin-left: -15px;
+margin-right: -15px; */
+}
+
+.Dropdown.root{
+  font-size: 15px;
+  width: 142px;
+  float: right;
+}
+
+.mainDashboard{
+  display: flex;
+  justify-content: space-around;
+}
