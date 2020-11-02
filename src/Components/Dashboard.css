@@ -23,10 +23,12 @@ body {
   border-bottom: 1px solid #665151;
   text-align: left;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 600;
   padding: 10px;
-  color: #b6b6e3;
+  /* color: #b6b6e3; */
+  color: #5962B4;
+  font-weight: bold
 }
 
 .widgetValue .value {
