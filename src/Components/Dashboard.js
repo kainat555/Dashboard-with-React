@@ -119,7 +119,7 @@ class Dashboard extends Component {
           },
           {
             label: "New Users",
-            value: arr[i].newUsers
+            value: arr[i].new_users
           }
         );
       }
@@ -201,8 +201,8 @@ sessionsArr: sessionsArr
       <div>
         <Container fluid>
           <Row className="TopHeader">
-            <Col>Dashboard</Col>
-            <Col>
+            <Col className='heading'>Dashboard</Col>
+            <Col className='dropdown'>
               <Dropdown
                 options={this.state.dropdownOptions}
                 onChange={this.updateDashboard}

@@ -61,7 +61,7 @@ text {
   fill: white;
 }
 
-.TopHeader {
+.TopHeader{
   /* background: #22aa22; */
   background: yellow;
   color: black;
@@ -83,10 +83,20 @@ text {
 margin-right: -15px; */
 }
 
-.Dropdown.root {
+/* .Dropdown.root {
   font-size: 15px;
   width: 142px;
   float: right;
+} */
+
+
+.dropdown{
+border: 1px solid black;
+float: right;
+font-size: 20px;
+width: 150px;
+height: 30px;
+background: white;
 }
 
 .mainDashboard {
