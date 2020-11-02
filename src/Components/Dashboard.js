@@ -238,9 +238,6 @@ sessionsArr: sessionsArr
                 value={this.state.socialSource}
               />
             </Col>
-            {/* <Col>
-              <WidgetText title="Email Source" value={this.state.emailSource} />
-            </Col> */}
           </Row>
           <Row className="mainDashboard">
             <Col>
@@ -255,32 +252,6 @@ sessionsArr: sessionsArr
             <Col>
               <WidgetText title="New Users" value={this.state.newUsers} />
             </Col>
-            {/* <Col>
-            <WidgetText title="Direct Source" value={this.state.directSource} />
-            </Col>
-            <Col>
-            <WidgetText title="Referral Source" value={this.state.referralSource} />
-            </Col> */}
-          </Row>
-          <Row className="mainDashboard">
-            {/* <Col>
-              <WidgetText title="Users" value={this.state.users} />
-            </Col>
-            <Col>
-              <WidgetText title="New Users" value={this.state.newUsers} />
-            </Col> */}
-            {/* <Col>
-              <WidgetBar
-                title="Source Comparison"
-                data={this.state.sourceArr}
-              />
-            </Col> */}
-            {/* <Col>
-            <WidgetBar title='Source Comparison' data={this.state.sourceArr}/>
-            </Col> */}
-            {/* <Col>
-            <WidgetDoughnut title='Users Comparison' data={this.state.usersArr}/>
-            </Col> */}
           </Row>
           <br/> <br/>
           <Row className="mainDashboard">
